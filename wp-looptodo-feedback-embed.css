@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+
+.wp_looptodo_feedback_button {
+    position:fixed;
+    right:0px;
+    top:25%;
+    display:block;
+    z-index:20000;	
+}
+.looptodo_feedback_inner {
+    position: absolute;
+    left: 50%;
+    margin-left: -195px;
+    top: 15%;
+    padding-top: 20px;
+    background: #fff;
+    border: solid 1px #888;
+    box-shadow: 0px 0px 10px #ccc;
+    z-index:20000;
+}
+#looptodo_close_btn {
+	position: absolute;
+	top: 20px;
+	right: 25px;
+	font-family: Arial;
+	font-size: 12px;
+	cursor: pointer;
+}
+#looptodo_frame {
+	width: 377px;
+	height: 600px;
+	z-index:20000;	
+}
+.looptodo_wrapper {
+	position:fixed;
+}
